@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <h2>Lista de Contatos</h2>
+
+    <table id="tabelaContatos">
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </tr>
+    </table>
+
+    <form id="formularioContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required="nome"><br><br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" required name="telefone"><br><br>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" />
+    </form>
+    <script src="./main.js"></script>
+    <footer>
+        <p><em>&copy; 2024 Italo Vinicius Desenvolvedor Full-Stack Python.IVR</em></p>
+    </footer>
+</body>
+
+</html>
